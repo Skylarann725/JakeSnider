@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+}
+
+.navbar-fixed {
+    position: absolute;
+    z-index: 999999999;
+}
+
+.nav-wrapper {
+    background-color: transparent !important;
+    /*background-color: black !important;*/
+    color: black;
+}
+
+a {
+    color: white !important;
+    font-family: 'BankGothicLight', sans-serif;
+}
+
+.logopic {
+    float: right;
+    color: white;
+    padding-right: 10px;
+    margin-top: 10px;
+    /*margin-top: 3px;*/
+}
+
+#slide-out {
+    background: rgba(0, 0, 0, .3);
+    width: 170px !important;
+}
+
+.sidebut {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px;
+}
+
+.row {
+    margin-top: 60px;
+}
+
+#nav-mobile {
+    background-color: black !important;
+    display: inline-block;
+}
+
+
+.parallax-container {
+    width: 100%;
+    line-height: 0;
+    height: 600px;
+    /*background: url('../images/camera.jpg') no-repeat;*/
+    background-attachment: fixed;
+    /*min-height: 650px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.section.no-pad-bot {
+    padding-bottom: 0;
+}
+
+.section {
+    padding-top: 1rem;
+}
+
+.parallax {
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /*opacity: 0.8;*/
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#title {
+    margin-top: 110px;
+    margin-left: -470px;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'BankGothicMedium', sans-serif;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'BankGothicMedium', sans-serif;
+    font-size: 70px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.quote {
+	font-size: 25px;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.aboutme {
+    height: 500px;
+    background-color: black;
+}
+
+h4 {
+    font-family: 'BankGothicMedium', sans-serif;
+    color: #28a9e1;
+}
+
+#aboutcontainer {
+    height: 500px;
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 40px;
+}
+
+.pabout {
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: justify;
+    font-family: 'BankGothicLight', sans-serif;
+    color: white;
+}
+
+#index-banner2 {
+    width: 100%;
+    line-height: 0;
+    height: 370px;
+    /*background: url('../images/camera.jpg') no-repeat;*/
+    background-attachment: fixed;
+    /*min-height: 650px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lightening {
+	opacity: 0.8;
+}
+
+hr {
+	width: 70%;
+}
+
+.company {
+    height: 500px;
+    background-color: black;
+}
+
+#companycontainer {
+    height: 500px;
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 40px;
+}
+
+#index-banner3 {
+    width: 100%;
+    line-height: 0;
+    height: 380px;
+    /*background: url('../images/camera.jpg') no-repeat;*/
+    background-attachment: fixed;
+    /*min-height: 650px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beach {
+	opacity: 0.8;
+}
+
+.videoclips {
+	height: 670px;
+	background-color: black;
+}
+
+#vidreel {
+	width: 85%;
+}
+
+iframe {
+	padding-top: 15px;
+}
+
+.page-footer {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    background-color: black !important;
+}
+
+.footer-copyright {
+	background-color: black !important;
+}
+
+.icons {
+    float: left;
+}
+
+.icons1 {
+    width: 30px;
+}
+
+.contactinfo {
+    margin-left: 20px;
+}
+
+.email {
+    font-family: 'BankGothicLight', sans-serif;
+    color: white;
+    margin-left: 460px;
+    font-size: 25px;
+}
+
+.copyright {
+    margin-left: 22%;
+    width: 400px;
+    font-family: 'BankGothicLight', sans-serif;
+    color: white;
+}
+
+.developed {
+    margin-right: 30px;
+    font-family: 'BankGothicLight', sans-serif;
+    color: white;
+}
