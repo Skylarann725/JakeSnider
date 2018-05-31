@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JakeSniderFilms</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/video2.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Tienne" rel="stylesheet">
+    <style type="text/css">
+    @font-face {
+        font-family: BankGothicMedium;
+        src: url('./assets/fonts/BankGothicMedium.ttf');
+    }
+
+    @font-face {
+        font-family: BankGothicLight;
+        src: url('./assets/fonts/BankGothicLight.ttf');
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+            <!-- <nav class="fixed"> -->
+            <div class="nav-wrapper">
+                <ul id="slide-out" class="side-nav">
+                    <center>
+                        <div class="row" id="side">
+                            <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
+                            <li><a class="sidebut" href="video.html">Video</a></li>
+                            <li><a class="sidebut" href="blog.html">Blog</a></li>
+                            <li><a class="sidebut" href="contact.html">Contact</a></li>
+                        </div>
+                    </center>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                <div class="logopic">
+                    <img src="./assets/images/jsfwhite.jpg" width="100px">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Nav Bar -->
+    <!-- Main Picture -->
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad bot">
+            <div class="container">
+                <div class="parallax"><img src="./assets/images/IMG_7703.jpg" width="100%" /></div>
+                <div class="container" id="mainpic">
+                    <br>
+                    <br>
+                    <div class="row" id="title">
+                        <h1>Favorite Work</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Picture -->
+    <!-- All Videos -->
+    <div class="allvids">
+        <div class="center wakeboarding">
+            <h5>Wake Boarding</h5>
+            <button class="mikey">
+                <img src="./assets/images/mikey.png" width="100%" height="300">
+                <!-- <p>Mikey Conrady</p> -->
+            </button>
+            <button class="jim">
+                <img src="./assets/images/jim.png" width="100%" height="300">
+                <!-- <p>Jim Campbell</p> -->
+        </div>
+        <div class="barefooting">
+            <h5>Bare Footing</h5>
+            <button class="parks">
+                <img src="./assets/images/parks.png" width="100%">
+                <p>Parks Bonifay</p>
+            </button>
+        </div>
+        <div class="Motocross">
+            <h5>Motocross</h5>
+            <button class="button4">
+                <img src="./assets/images/louie.png" width="100%">
+                <p>Louie Cortese</p>
+            </button>
+        </div>
+    </div>
+    <!-- End All Videos -->
+    <!-- Footer -->
+    <footer class="page-footer">
+        <!-- <p class="email">jakesniderfilms@yahoo.com</p> -->
+        <div class="footer-copyright">
+            <div class="contactinfo">
+                <a class="icons" target="_blank" href="https://www.instagram.com/jakesniderfilms/"><img class="icons1" src="./assets/icons/instagram.png"></a>
+                <a target="_blank" href="https://www.youtube.com/user/jakesnider21"><img class="icons1" src="./assets/icons/youtube.png"></a>
+                <a target="_blank" href="https://vimeo.com/search?q=jake+snider+films"><img class="icons1" src="./assets/icons/vimeo.png"></a>
+                <a target="_blank" href="https://www.facebook.com/JakeSniderFilms/"><img class="icons1" src="./assets/icons/facebook.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/jake-snider-0a7506105/"><img class="icons1" src="./assets/icons/linkedin.png"></a>
+            </div>
+            <div class="container center copyright">
+                © Copyright 2017 Jake Snider Films
+            </div>
+            <div class="developed">
+                Developed by <a target="_blank" href="http://www.skylarsiagel.com/">Skylar Siagel</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var parks = '<iframe id="iframe" width="100%" height="500px" src="https://www.youtube.com/embed/13jzp2NV5tc" frameborder="0" allowfullscreen></iframe>';
+        var mikey = '<iframe width="100%" height="500px" src="https://www.youtube.com/embed/r1vTkgaMy48" frameborder="0" allowfullscreen></iframe>';
+        var jim = '<iframe width="100%" height="500px" src="https://www.youtube.com/embed/UEDSowXTBsc" frameborder="0" allowfullscreen></iframe>';
+        var louie = '<iframe src="https://player.vimeo.com/video/88365742" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+
+        $('.button1').click(function() {
+            $('#cloned').empty();
+            $(parks).appendTo('#cloned');
+        });
+        $('.button2').click(function() {
+            $('#cloned').empty();
+            $(mikey).appendTo('#cloned');
+        });
+        $('.button3').click(function() {
+            $('#cloned').empty();
+            $(jim).appendTo('#cloned');
+        });
+        $('.button4').click(function() {
+            $('#cloned').empty();
+            $(louie).appendTo('#cloned');
+        });
+    });
+    </script>
+</body>
+<script>
+$(document).ready(function() {
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+        menuWidth: 350,
+        closeOnClick: true
+    });
+    $('.parallax').parallax();
+});
+</script>
+
+</html>

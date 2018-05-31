@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+/*===================================================================
+    NAVBAR
+=====================================================================*/
+
 .navbar-fixed {
     position: absolute;
     z-index: 999999999;
@@ -26,7 +30,11 @@ a {
     /*margin-top: 3px;*/
 }
 
-#slide-out {
+/*===================================================================
+    SLIDE OUT NAVBAR
+=====================================================================*/
+
+/*#slide-out {
     background: rgba(0, 0, 0, .3);
     width: 170px !important;
 }
@@ -44,8 +52,50 @@ a {
 #nav-mobile {
     background-color: black !important;
     display: inline-block;
+}*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*===================================================================
+    MAIN PICTURE
+=====================================================================*/
 
 .parallax-container {
     width: 100%;
@@ -238,7 +288,7 @@ iframe {
 }
 
 .contactinfo {
-    margin-left: 20px;
+    margin-left: 2%;
 }
 
 .email {
@@ -249,34 +299,21 @@ iframe {
 }
 
 .copyright {
-    margin-left: 22%;
+    margin-left: 20%;
     width: 400px;
     font-family: 'BankGothicLight', sans-serif;
     color: white;
 }
 
 .developed {
-    margin-right: 30px;
+    margin-right: 3%;
     font-family: 'BankGothicLight', sans-serif;
     color: white;
 }
 
-
-
-
-/*@media screen and (max-width: 1250px) {
-    .copyright {
-        margin-right: 0px;
-        margin-left: 100px;
-    }
-    .developed {
-        margin-left: 100px;
-    }
-}*/
-
 @media screen and (max-width: 1150px) {
     .copyright {
-        margin-left: 10%;
+        margin-left: 15%;
     }
 }
 
@@ -287,11 +324,14 @@ iframe {
     h1 {
         font-size: 30px;
     }
+    .copyright {
+        margin-left: 10%;
+    }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 940px) {
     .copyright {
-        margin-left: 5%;
+        margin-left: 5px;
     }
 }
 

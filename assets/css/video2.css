@@ -52,16 +52,8 @@ button {
 }
 
 .parallax-container {
-/*#mainpic {*/
     width: 100%;
     line-height: 0;
-    /*background: rgba(0, 0, 0, .6);*/
-    /*overflow: hidden;*/
-    /*box-sizing: inherit;*/
-    /*height: 630px;*/
-    /*background-color: black;*/
-    /*opacity: 0.9;*/
-    /*background: url('../images/JSF Clothing-1.jpg') no-repeat;*/
     background-attachment: fixed;
     min-height: 550px;
     background-position: center;
@@ -126,16 +118,9 @@ p {
     margin-left: 50px;
 }
 
-#video-playlist {
-    /*border: white solid 1px;*/
-    width: 325px;
-    float: right;
-    /*margin-top: 70px;*/
-}
-
 .allvids {
     background-color: black;
-    height: 550px;
+    height: 100%;
 }
 
 h5 {
@@ -162,8 +147,18 @@ button:focus {
     background-color: black !important;
 }
 
+.mikey {
+    width: 45%;
+    padding-right: 0;
+}
+
+.jim {
+    width: 45%;
+    padding-left: 0;
+}
+
 .wakeboarding {
-    width: 500px;
+    width: 100%;
 }
 
 .page-footer {
