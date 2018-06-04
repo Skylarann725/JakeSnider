@@ -38,7 +38,7 @@
                     <center>
                         <div class="row" id="side">
                             <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
-                            <li><a class="sidebut" href="video.html">Video</a></li>
+                            <li><a class="sidebut" href="video2.html">Video</a></li>
                             <li><a class="sidebut" href="blog.html">Blog</a></li>
                             <li><a class="sidebut" href="contact.html">Contact</a></li>
                         </div>
@@ -52,47 +52,29 @@
         </nav>
     </div>
     <!-- End Nav Bar -->
-    <!-- Main Picture -->
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad bot">
-            <div class="container">
-                <div class="parallax"><img src="./assets/images/IMG_7703.jpg" width="100%" /></div>
-                <div class="container" id="mainpic">
-                    <br>
-                    <br>
-                    <div class="row" id="title">
-                        <h1>Favorite Work</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Main Picture -->
     <!-- All Videos -->
     <div class="allvids">
-        <div class="center wakeboarding">
-            <h5>Wake Boarding</h5>
-            <button class="mikey">
-                <img src="./assets/images/mikey.png" width="100%" height="300">
+        <div class="wakeboarding">
+            <!-- Modal Trigger -->
+            <button data-target="modal1" class="mikey">
+                <img class="mikeyimg" src="./assets/images/mikey2.png">
                 <!-- <p>Mikey Conrady</p> -->
             </button>
-            <button class="jim">
-                <img src="./assets/images/jim.png" width="100%" height="300">
+            <button data-target="modal1" class="jim">
+                <img class="jimimg" src="./assets/images/jim2.png">
                 <!-- <p>Jim Campbell</p> -->
-        </div>
-        <div class="barefooting">
-            <h5>Bare Footing</h5>
-            <button class="parks">
-                <img src="./assets/images/parks.png" width="100%">
-                <p>Parks Bonifay</p>
             </button>
-        </div>
-        <div class="Motocross">
-            <h5>Motocross</h5>
-            <button class="button4">
-                <img src="./assets/images/louie.png" width="100%">
-                <p>Louie Cortese</p>
-            </button>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <div class="col s8" id="cloned">
+                        <!-- empty div for videos -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End All Videos -->
@@ -118,26 +100,16 @@
     <!-- End Footer -->
     <script type="text/javascript">
     $(document).ready(function() {
-        var parks = '<iframe id="iframe" width="100%" height="500px" src="https://www.youtube.com/embed/13jzp2NV5tc" frameborder="0" allowfullscreen></iframe>';
-        var mikey = '<iframe width="100%" height="500px" src="https://www.youtube.com/embed/r1vTkgaMy48" frameborder="0" allowfullscreen></iframe>';
-        var jim = '<iframe width="100%" height="500px" src="https://www.youtube.com/embed/UEDSowXTBsc" frameborder="0" allowfullscreen></iframe>';
-        var louie = '<iframe src="https://player.vimeo.com/video/88365742" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        var mikey = '<iframe src="https://player.vimeo.com/video/254609321?autoplay=1" width="740" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        var jim = '<iframe src="https://player.vimeo.com/video/254602190?autoplay=1" width="740" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 
-        $('.button1').click(function() {
-            $('#cloned').empty();
-            $(parks).appendTo('#cloned');
-        });
-        $('.button2').click(function() {
+        $('.mikey').click(function() {
             $('#cloned').empty();
             $(mikey).appendTo('#cloned');
         });
-        $('.button3').click(function() {
+        $('.jim').click(function() {
             $('#cloned').empty();
             $(jim).appendTo('#cloned');
-        });
-        $('.button4').click(function() {
-            $('#cloned').empty();
-            $(louie).appendTo('#cloned');
         });
     });
     </script>
@@ -150,6 +122,9 @@ $(document).ready(function() {
         closeOnClick: true
     });
     $('.parallax').parallax();
+
+    $('.modal').modal();
+
 });
 </script>
 

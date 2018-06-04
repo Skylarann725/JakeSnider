@@ -34,7 +34,7 @@ a {
     SLIDE OUT NAVBAR
 =====================================================================*/
 
-/*#slide-out {
+#slide-out {
     background: rgba(0, 0, 0, .3);
     width: 170px !important;
 }
@@ -46,51 +46,12 @@ a {
 
 .row {
     margin-top: 60px;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 #nav-mobile {
     background-color: black !important;
     display: inline-block;
-}*/
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 /*===================================================================
@@ -148,21 +109,9 @@ h1 {
     font-size: 70px;
 }
 
-h2 {
-    color: white;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'BankGothicMedium', sans-serif;
-    /*font-size: 70px;*/
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.quote {
-    font-size: 25px;
-    width: 70%;
-    margin-left: 15%;
-}
+/*===================================================================
+    ABOUT THE COMPANY
+=====================================================================*/
 
 .aboutme {
     height: 100%;
@@ -190,6 +139,10 @@ h4 {
     color: white;
 }
 
+/*===================================================================
+    SECOND PICTURE
+=====================================================================*/
+
 #index-banner2 {
     width: 100%;
     line-height: 0;
@@ -206,9 +159,29 @@ h4 {
     opacity: 0.8;
 }
 
+h2 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'BankGothicMedium', sans-serif;
+    /*font-size: 70px;*/
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 25px;
+    width: 70%;
+    margin-left: 15%;
+}
+
 hr {
     width: 70%;
 }
+
+/*===================================================================
+    ABOUT ME
+=====================================================================*/
 
 .company {
     height: 100%;
@@ -222,6 +195,10 @@ hr {
     padding-top: 40px;
     padding-bottom: 60px;
 }
+
+/*===================================================================
+    THIRD PICTURE
+=====================================================================*/
 
 #index-banner3 {
     width: 100%;
@@ -238,6 +215,10 @@ hr {
 .beach {
     opacity: 0.8;
 }
+
+/*===================================================================
+    VIDEO REEL
+=====================================================================*/
 
 .videoclips {
     height: 100%;
@@ -268,6 +249,10 @@ iframe {
     width: 100%;
     position: absolute;
 }
+
+/*===================================================================
+    FOOTER
+=====================================================================*/
 
 .page-footer {
     padding-top: 0px !important;
@@ -310,6 +295,10 @@ iframe {
     font-family: 'BankGothicLight', sans-serif;
     color: white;
 }
+
+/*===================================================================
+    MEDIA QUERIES
+=====================================================================*/
 
 @media screen and (max-width: 1150px) {
     .copyright {
