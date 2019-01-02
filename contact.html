@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JakeSniderFilms</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Tienne" rel="stylesheet">
+    <style type="text/css">
+    @font-face {
+        font-family: BankGothicMedium;
+        src: url('./assets/fonts/BankGothicMedium.ttf');
+    }
+
+    @font-face {
+        font-family: BankGothicLight;
+        src: url('./assets/fonts/BankGothicLight.ttf');
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+            <!-- <nav class="fixed"> -->
+            <div class="nav-wrapper">
+                <ul id="slide-out" class="side-nav">
+                    <center>
+                        <div class="row" id="side">
+                            <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
+                            <li><a class="sidebut" href="video2.html">Video</a></li>
+                            <li><a class="sidebut" href="blog.html">Blog</a></li>
+                            <li><a class="sidebut" href="contact.html">Contact</a></li>
+                        </div>
+                    </center>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                <div class="logopic">
+                    <a href="jakesniderfilms.html"><img src="./assets/images/jsfwhite.jpg" width="100px"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Nav Bar -->
+    <!-- Contact Section Start -->
+    <section id="contact" class="section" data-stellar-background-ratio="-0.2">
+        <div class="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="contact-us">
+                            <h3 id="contact">Contact Me</h3>
+                            <div class="contact-address">
+                                <!-- <p>Centerville Road, DE 19808, US </p> -->
+                                <p class="phone">Phone: <span>(407- 758-2190)</span></p>
+                                <p class="email">E-mail: <span>(jakesniderfilms.com)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="contact-block">
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="submit-button text-center">
+                                            <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="contactinfo">
+                <a class="icons" target="_blank" href="https://www.instagram.com/jakesniderfilms/"><img class="icons1" src="./assets/icons/instagram.png"></a>
+                <a target="_blank" href="https://www.youtube.com/user/jakesnider21"><img class="icons1" src="./assets/icons/youtube.png"></a>
+                <a target="_blank" href="https://vimeo.com/search?q=jake+snider+films"><img class="icons1" src="./assets/icons/vimeo.png"></a>
+                <a target="_blank" href="https://www.facebook.com/JakeSniderFilms/"><img class="icons1" src="./assets/icons/facebook.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/jake-snider-0a7506105/"><img class="icons1" src="./assets/icons/linkedin.png"></a>
+            </div>
+            <div class="container center copyright">
+                © Copyright 2017 Jake Snider Films
+            </div>
+            <div class="developed">
+                Developed by <a target="_blank" href="http://www.skylarsiagel.com/">Skylar Siagel</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/contact-form-script.js"></script>
+</body>
+<script>
+$(document).ready(function() {
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+        menuWidth: 350,
+        closeOnClick: true
+    });
+    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+    //$('.collapsible').collapsible();
+    $('.parallax').parallax();
+});
+</script>
+
+</html>

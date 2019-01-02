@@ -1,13 +1,5 @@
 body {
     background-color: black;
-    height: 100%;
-    margin: 0;
-    position: relative;
-}
-
-html {
-    height: 100%;
-    position: relative;
 }
 
 /*===================================================================
@@ -20,8 +12,8 @@ html {
 }
 
 .nav-wrapper {
-    /*background-color: transparent !important;*/
-    background-color: black !important;
+    background-color: transparent !important;
+    /*background-color: black !important;*/
     color: black;
 }
 
@@ -33,18 +25,10 @@ a {
 .logopic {
     float: right;
     color: white;
-    margin-right: 20px;
-    margin-top: 3px;
+    padding-right: 10px;
+    margin-top: 10px;
+    /*margin-top: 3px;*/
 }
-
-button {
-    /*width: 200px;*/
-    border: none;
-    background: none;
-    padding: 0;
-}
-
-
 
 /*===================================================================
     SLIDE OUT NAVBAR
@@ -70,222 +54,68 @@ button {
     display: inline-block;
 }
 
-v
 /*===================================================================
-    VIDEOS SECTION
+    MAIN CONTAINER
 =====================================================================*/
 
-p {
-    color: white;
-    font-family: 'BankGothicLight', sans-serif;
-}
-
-#cloned {
-    height: 400px;
-    margin-left: 50px;
-}
-
-.allvids {
-    background-color: black;
+.contact {
     height: 90%;
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 15%;
 }
 
-h5 {
-    color: white;
-    font-family: 'BankGothicMedium', sans-serif;
+.contact-us h3 {
+  font-size: 36px;
+  margin-bottom: 45px;
 }
 
-a:hover {
-    opacity: 1;
+.contact-us p span {
+  color: #28a9e1;
+  padding-left: 10px;
 }
 
-
-
-/*button:active {
-    background-color: #28a9e1;
-}*/
-
-
-/*button:focus {
-    background-color: black !important;
-}*/
-
-.titlewrap {
-    width: 50%;
-    height: 7%;
-    position: absolute;
+#contact {
+  background: black;
+  color: #fff;
+  position: relative;
 }
 
-.title {
-    opacity: 1;
-    color: white;
-    font-size: 250%;
-    font-weight: 100;
-    padding-top: 40%;
-    padding-left: 2%;
+.form-control {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 14px;
+  border-color: #fff;
+  border-radius: 0px;
+  color: #fff;
+  background: transparent;
+  font-size: 14px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.mikey {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 0;
-    float: left;
-    opacity: .5;
+.form-control:focus {
+  box-shadow: none;
+  color: #fff;
+  border-color: #61D2B4;
+  background: transparent;
+  outline: none;
 }
 
-.mikeyimg {
-    width: 100%;
+.btn.disabled, .btn:disabled {
+  opacity: 1;
 }
 
-.jim {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 0;
-    float: right;
-    opacity: .5;
+.text-danger {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
-.jimimg {
-    width: 100%
+.list-unstyled li {
+  color: #28a9e1;
 }
 
-.ben {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 0;
-    float: left;
-    opacity: .5;
-    margin-top: 0;
+.submit-button {
+    color: #28a9e1 !important;
 }
-
-.benimg {
-    width: 100%;
-}
-
-.ashley {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 0;
-    float: right;
-    opacity: .5;
-    margin-top: 0;
-}
-
-.ashleyimg {
-    width: 100%;
-}
-
-.daz {
-    width: 50%;
-    padding-right: 0;
-    padding-left: 0;
-    float: right;
-    opacity: .5;
-    margin-top: 0;
-}
-
-.dazimg {
-    width: 100%;
-}
-
-/*.wakeboarding {
-    width: 100%;
-    height: 100%;
-}*/
-
-@media screen and (max-width: 1800px) {
-    .daz {
-        margin-bottom: 5%;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .daz {
-        margin-bottom: 10%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .daz {
-        margin-bottom: 15%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-.mikey {
-    width: 100%;
-}
-.jim {
-    width: 100%;
-}
-.ben {
-    width: 100%;
-}
-.ashley {
-    width: 100%;
-}
-.daz {
-    width: 100%;
-    /*margin-bottom: 25%;*/
-}
-.title {
-        font-size: 250%;
-        padding-top: 80%;
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .title {
-        font-size: 150%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .daz {
-        margin-bottom: 20%;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .title {
-        font-size: 150%;
-        padding-top: 80%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .daz {
-        margin-bottom: 30%;
-    }
-}
-
-/*===================================================================
-    MODAL
-=====================================================================*/
-
-.modal {
-    width: 80%;
-    height: 100%;
-    margin-top: 3%;
-    background-color: black !important;
-}
-
-.modal-content {
-    background-color: black;
-    /*overflow: hidden;*/
-}
-
-
-
-
-/*.modal-footer {
-    background-color: black !important;
-    height: 5% !important;
-}*/
-
 
 /*===================================================================
     FOOTER
@@ -295,18 +125,22 @@ a:hover {
     padding-top: 0px !important;
     margin-top: 0px !important;
     background-color: black !important;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
+}
+
+.footer-copyright {
+    background-color: black !important;
 }
 
 .icons {
-    /*margin-left: 320px;*/
     float: left;
 }
 
 .icons1 {
     width: 30px;
+}
+
+.contactinfo {
+    margin-left: 2%;
 }
 
 .email {
@@ -317,14 +151,16 @@ a:hover {
 }
 
 .copyright {
-    margin-left: 22%;
+    margin-left: 20%;
     width: 400px;
     font-family: 'BankGothicLight', sans-serif;
+    color: white;
 }
 
 .developed {
-    margin-right: 30px;
+    margin-right: 3%;
     font-family: 'BankGothicLight', sans-serif;
+    color: white;
 }
 
 @media screen and (max-width: 1150px) {

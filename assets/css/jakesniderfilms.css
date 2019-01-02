@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+
+
+
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -30,12 +34,16 @@ a {
     /*margin-top: 3px;*/
 }
 
+
+
+
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
 
 #slide-out {
-    background: rgba(0, 0, 0, .3);
+    background: black;
     width: 170px !important;
 }
 
@@ -45,7 +53,7 @@ a {
 }
 
 .row {
-    margin-top: 60px;
+    margin-top: 20px;
     /*margin-bottom: 60px;*/
 }
 
@@ -54,6 +62,10 @@ a {
     display: inline-block;
 }
 
+
+
+
+
 /*===================================================================
     MAIN PICTURE
 =====================================================================*/
@@ -61,7 +73,7 @@ a {
 .parallax-container {
     width: 100%;
     line-height: 0;
-    height: 600px;
+    /*height: 600px;*/
     /*background: url('../images/camera.jpg') no-repeat;*/
     background-attachment: fixed;
     /*min-height: 650px;*/
@@ -87,7 +99,7 @@ a {
     position: fixed;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    /*min-height: 100%;*/
     /*opacity: 0.8;*/
 }
 
@@ -109,6 +121,32 @@ h1 {
     font-size: 70px;
 }
 
+
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+
+    .parallax-container {
+        background-attachment: scroll !important;
+        height: 100%;
+    }
+}*/
+
+@media screen and (max-width: 500px) {
+    h1 {
+        margin-left: 500px;
+        margin-top: 120px;
+        font-size: 40px !important;
+        line-height: 1em;
+    }
+    .parallax-container {
+        height: 300% !important;
+    }
+}
+
+
+
+
+
 /*===================================================================
     ABOUT THE COMPANY
 =====================================================================*/
@@ -118,7 +156,7 @@ h1 {
     background-color: black;
 }
 
-h4 {
+h3 {
     font-family: 'BankGothicMedium', sans-serif;
     color: #28a9e1;
 }
@@ -137,7 +175,13 @@ h4 {
     text-align: justify;
     font-family: 'BankGothicLight', sans-serif;
     color: white;
+    font-size: 120%;
+    line-height: 1.5em;
 }
+
+
+
+
 
 /*===================================================================
     SECOND PICTURE
@@ -179,6 +223,10 @@ hr {
     width: 70%;
 }
 
+
+
+
+
 /*===================================================================
     ABOUT ME
 =====================================================================*/
@@ -195,6 +243,10 @@ hr {
     padding-top: 40px;
     padding-bottom: 60px;
 }
+
+
+
+
 
 /*===================================================================
     THIRD PICTURE
@@ -216,6 +268,10 @@ hr {
     opacity: 0.8;
 }
 
+
+
+
+
 /*===================================================================
     VIDEO REEL
 =====================================================================*/
@@ -226,9 +282,12 @@ hr {
 }
 
 #vidreel {
-    width: 85%;
+    /*width: 85%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;*/
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 iframe {
@@ -249,6 +308,10 @@ iframe {
     width: 100%;
     position: absolute;
 }
+
+
+
+
 
 /*===================================================================
     FOOTER
@@ -296,6 +359,10 @@ iframe {
     color: white;
 }
 
+
+
+
+
 /*===================================================================
     MEDIA QUERIES
 =====================================================================*/
@@ -308,7 +375,7 @@ iframe {
 
 @media screen and (max-width: 1000px) {
     .parallax-container {
-        height: 400px;
+        /*height: 400px;*/
     }
     h1 {
         font-size: 30px;
@@ -354,7 +421,7 @@ iframe {
 
 @media screen and (max-width: 700px) {
     .parallax-container {
-        height: 300px;
+        /*height: 300px;*/
     }
     h1 {
         font-size: 30px;
@@ -381,23 +448,46 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
+    h3 {
+        text-align: center;
+        font-size: 190%;
+    }
+    h2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .pabout {
+        text-align: center;
+        font-size: 127%;
+    }
+    #index-banner2 {
+        background-attachment: scroll !important;
+        height: 185px !important;
+    }
+    #index-banner3 {
+        background-attachment: scroll !important;
+        height: 185px !important;
+    }
+    #title2 {
+        margin-top: 35px !important;
+    }
     .page-footer .footer-copyright {
         min-height: 100px;
     }
     .copyright {
         position: absolute;
         margin-top: 40px;
-        margin-left: 20%;
+        margin-left: -2%;
         padding-bottom: 20px;
     }
     .developed {
         position: absolute;
         margin-top: 10px;
-        margin-left: 34%;
+        margin-left: 19%;
         text-align: center;
     }
     .contactinfo {
         margin-top: -30px;
-        margin-left: 37%;
+        margin-left: 26%;
     }
 }

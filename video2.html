@@ -29,41 +29,68 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <div class="navbar-fixed">
-        <nav class="transparent z-depth-0">
-            <!-- <nav class="fixed"> -->
-            <div class="nav-wrapper">
-                <ul id="slide-out" class="side-nav">
-                    <center>
-                        <div class="row" id="side">
-                            <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
-                            <li><a class="sidebut" href="video2.html">Video</a></li>
-                            <li><a class="sidebut" href="blog.html">Blog</a></li>
-                            <li><a class="sidebut" href="contact.html">Contact</a></li>
-                        </div>
-                    </center>
-                </ul>
-                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-                <div class="logopic">
-                    <img src="./assets/images/jsfwhite.jpg" width="100px">
+    <div id=”main-container” style="min-height: 100vh; /* will cover the 100% of viewport */ overflow: hidden; display: block; position: relative;">
+        <!-- Nav Bar -->
+        <div class="navbar-fixed">
+            <nav class="transparent z-depth-0">
+                <!-- <nav class="fixed"> -->
+                <div class="nav-wrapper">
+                    <ul id="slide-out" class="side-nav">
+                        <center>
+                            <div class="row" id="side">
+                                <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
+                                <li><a class="sidebut" href="video2.html">Video</a></li>
+                                <li><a class="sidebut" href="blog.html">Blog</a></li>
+                                <li><a class="sidebut" href="contact.html">Contact</a></li>
+                            </div>
+                        </center>
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                    <div class="logopic">
+                        <a href="jakesniderfilms.html"><img src="./assets/images/jsfwhite.jpg" width="100px"></a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <!-- End Nav Bar -->
-    <!-- All Videos -->
-    <div class="allvids">
-        <div class="wakeboarding">
+            </nav>
+        </div>
+        <!-- End Nav Bar -->
+        <!-- All Videos -->
+        <div class="allvids">
             <!-- Modal Trigger -->
-            <button data-target="modal1" class="mikey">
-                <img class="mikeyimg" src="./assets/images/mikey2.png">
-                <!-- <p>Mikey Conrady</p> -->
-            </button>
-            <button data-target="modal1" class="jim">
-                <img class="jimimg" src="./assets/images/jim2.png">
-                <!-- <p>Jim Campbell</p> -->
-            </button>
+            <a class="mikey" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Mikey Conrady</div>
+                </div>
+                <img class="mikeyimg" src="./assets/images/mikey.png">
+            </a>
+            <!-- <p>Mikey Conrady</p> -->
+            <a class="jim" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Jim Campbell</div>
+                </div>
+                <img class="jimimg" src="./assets/images/jim.png">
+            </a>
+            <!-- <p>Jim Campbell</p> -->
+            <a class="ben" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Ben Groen</div>
+                </div>
+                <img class="benimg" src="./assets/images/ben.png">
+            </a>
+            <!-- <p>Ben</p> -->
+            <a class="ashley" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Ashley Stebbings</div>
+                </div>
+                <img class="ashleyimg" src="./assets/images/ashley.png">
+            </a>
+            <!-- <p>Ashley</p> -->
+            <a class="daz" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Daz Bishop</div>
+                </div>
+                <img class="dazimg" src="./assets/images/daz.png">
+            </a>
+            <!-- <p>Ashley</p> -->
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                 <div class="modal-content">
@@ -71,37 +98,41 @@
                         <!-- empty div for videos -->
                     </div>
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div> -->
+            </div>
+            <!-- </div> -->
+        </div>
+        <!-- End All Videos -->
+        <!-- Footer -->
+        <footer class="page-footer">
+            <!-- <p class="email">jakesniderfilms@yahoo.com</p> -->
+            <div class="footer-copyright">
+                <div class="contactinfo">
+                    <a class="icons" target="_blank" href="https://www.instagram.com/jakesniderfilms/"><img class="icons1" src="./assets/icons/instagram.png"></a>
+                    <a target="_blank" href="https://www.youtube.com/user/jakesnider21"><img class="icons1" src="./assets/icons/youtube.png"></a>
+                    <a target="_blank" href="https://vimeo.com/search?q=jake+snider+films"><img class="icons1" src="./assets/icons/vimeo.png"></a>
+                    <a target="_blank" href="https://www.facebook.com/JakeSniderFilms/"><img class="icons1" src="./assets/icons/facebook.png"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jake-snider-0a7506105/"><img class="icons1" src="./assets/icons/linkedin.png"></a>
+                </div>
+                <div class="container center copyright">
+                    © Copyright 2017 Jake Snider Films
+                </div>
+                <div class="developed">
+                    Developed by <a target="_blank" href="http://www.skylarsiagel.com/">Skylar Siagel</a>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
-    <!-- End All Videos -->
-    <!-- Footer -->
-    <footer class="page-footer">
-        <!-- <p class="email">jakesniderfilms@yahoo.com</p> -->
-        <div class="footer-copyright">
-            <div class="contactinfo">
-                <a class="icons" target="_blank" href="https://www.instagram.com/jakesniderfilms/"><img class="icons1" src="./assets/icons/instagram.png"></a>
-                <a target="_blank" href="https://www.youtube.com/user/jakesnider21"><img class="icons1" src="./assets/icons/youtube.png"></a>
-                <a target="_blank" href="https://vimeo.com/search?q=jake+snider+films"><img class="icons1" src="./assets/icons/vimeo.png"></a>
-                <a target="_blank" href="https://www.facebook.com/JakeSniderFilms/"><img class="icons1" src="./assets/icons/facebook.png"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/jake-snider-0a7506105/"><img class="icons1" src="./assets/icons/linkedin.png"></a>
-            </div>
-            <div class="container center copyright">
-                © Copyright 2017 Jake Snider Films
-            </div>
-            <div class="developed">
-                Developed by <a target="_blank" href="http://www.skylarsiagel.com/">Skylar Siagel</a>
-            </div>
-        </div>
-    </footer>
     <!-- End Footer -->
     <script type="text/javascript">
     $(document).ready(function() {
-        var mikey = '<iframe src="https://player.vimeo.com/video/254609321?autoplay=1" width="740" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
-        var jim = '<iframe src="https://player.vimeo.com/video/254602190?autoplay=1" width="740" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        var mikey = '<iframe src="https://player.vimeo.com/video/254609321?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        var jim = '<iframe src="https://player.vimeo.com/video/254602190?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        var ben = '<iframe src="https://player.vimeo.com/video/46582906?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+        var ashley = '<iframe src="https://player.vimeo.com/video/101724572?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        var daz = '<iframe src="https://player.vimeo.com/video/106647421?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 
         $('.mikey').click(function() {
             $('#cloned').empty();
@@ -110,6 +141,18 @@
         $('.jim').click(function() {
             $('#cloned').empty();
             $(jim).appendTo('#cloned');
+        });
+        $('.ben').click(function() {
+            $('#cloned').empty();
+            $(ben).appendTo('#cloned');
+        });
+        $('.ashley').click(function() {
+            $('#cloned').empty();
+            $(ashley).appendTo('#cloned');
+        });
+        $('.daz').click(function() {
+            $('#cloned').empty();
+            $(daz).appendTo('#cloned');
         });
     });
     </script>
@@ -124,6 +167,7 @@ $(document).ready(function() {
     $('.parallax').parallax();
 
     $('.modal').modal();
+
 
 });
 </script>
