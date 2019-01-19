@@ -10,6 +10,7 @@ html {
     position: relative;
 }
 
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -46,6 +47,7 @@ button {
 
 
 
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
@@ -55,22 +57,32 @@ button {
     width: 170px !important;
 }
 
-.sidebut {
+.home {
+    padding-top: 10%;
+}
+
+#close {
+    color: white;
+    float: right;
+    margin-right: -20px;
+}
+
+
+/*.sidebut {
     color: rgb(255, 255, 255) !important;
     font-size: 15px;
 }
 
 .row {
     margin-top: 60px;
-    /*margin-bottom: 60px;*/
 }
 
 #nav-mobile {
     background-color: black !important;
     display: inline-block;
-}
+}*/
 
-v
+
 /*===================================================================
     VIDEOS SECTION
 =====================================================================*/
@@ -80,9 +92,15 @@ p {
     font-family: 'BankGothicLight', sans-serif;
 }
 
+
 #cloned {
-    height: 400px;
-    margin-left: 50px;
+    height: 100%;
+    /*margin-left: 50px;*/
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 .allvids {
@@ -101,7 +119,6 @@ h5 {
 a:hover {
     opacity: 1;
 }
-
 
 
 /*button:active {
@@ -128,12 +145,16 @@ a:hover {
     padding-left: 2%;
 }
 
+.title:hover {
+    font-size: 300%;
+}
+
 .mikey {
     width: 50%;
     padding-right: 0;
     padding-left: 0;
     float: left;
-    opacity: .5;
+    opacity: .7;
 }
 
 .mikeyimg {
@@ -145,7 +166,7 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     float: right;
-    opacity: .5;
+    opacity: .7;
 }
 
 .jimimg {
@@ -157,7 +178,7 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     float: left;
-    opacity: .5;
+    opacity: .7;
     margin-top: 0;
 }
 
@@ -170,7 +191,7 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     float: right;
-    opacity: .5;
+    opacity: .7;
     margin-top: 0;
 }
 
@@ -183,13 +204,14 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
     float: right;
-    opacity: .5;
+    opacity: .7;
     margin-top: 0;
 }
 
 .dazimg {
     width: 100%;
 }
+
 
 /*.wakeboarding {
     width: 100%;
@@ -215,23 +237,23 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
-.mikey {
-    width: 100%;
-}
-.jim {
-    width: 100%;
-}
-.ben {
-    width: 100%;
-}
-.ashley {
-    width: 100%;
-}
-.daz {
-    width: 100%;
-    /*margin-bottom: 25%;*/
-}
-.title {
+    .mikey {
+        width: 100%;
+    }
+    .jim {
+        width: 100%;
+    }
+    .ben {
+        width: 100%;
+    }
+    .ashley {
+        width: 100%;
+    }
+    .daz {
+        width: 100%;
+        /*margin-bottom: 25%;*/
+    }
+    .title {
         font-size: 250%;
         padding-top: 80%;
     }
@@ -262,23 +284,39 @@ a:hover {
     }
 }
 
+
 /*===================================================================
     MODAL
 =====================================================================*/
 
 .modal {
-    width: 80%;
+/*    width: 80%;
     height: 100%;
     margin-top: 3%;
-    background-color: black !important;
+    background-color: black !important;*/
+    position: fixed;
+    top: 0 !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    width: unset;
+    max-height: unset;
 }
 
 .modal-content {
     background-color: black;
     /*overflow: hidden;*/
+    height: 100% !important;
+    width: 100% !important;
 }
 
 
+.close {
+    color: white;
+    font-size: 220%;
+    background-color: black !important;
+}
 
 
 /*.modal-footer {
