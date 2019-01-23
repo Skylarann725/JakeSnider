@@ -3,15 +3,16 @@
 
 <head>
     <title>JakeSniderFilms</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- My Style Sheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     <!-- Compiled and minified JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/css?family=Candal|Tienne" rel="stylesheet">
@@ -29,28 +30,25 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <div class="navbar-fixed">
-        <nav class="transparent z-depth-0">
-            <!-- <nav class="fixed"> -->
-            <div class="nav-wrapper">
-                <ul id="slide-out" class="side-nav">
-                    <center>
-                        <div class="row" id="side">
-                            <li><a class="sidebut" href="jakesniderfilms.html">Home</a></li>
-                            <li><a class="sidebut" href="video2.html">Video</a></li>
-                            <li><a class="sidebut" href="blog.html">Blog</a></li>
-                            <li><a class="sidebut" href="contact.html">Contact</a></li>
-                        </div>
-                    </center>
-                </ul>
-                <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-                <div class="logopic">
-                    <a href="jakesniderfilms.html"><img src="./assets/images/jsfwhite.jpg" width="100px"></a>
+        <!-- Nav Bar -->
+        <div class="navbar-fixed">
+            <nav class="transparent z-depth-0">
+                <div class="nav-wrapper">
+                    <ul id="slide-out" class="sidenav">
+                        <li><a class="sidenav-close" href="#!"><i id="close" class="material-icons">close</i></a></li>
+                        <center>
+                            <li class="home"><a href="jakesniderfilms.html">Home</a></li>
+                            <li><a href="video2.html">Video</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </center>
+                    </ul>
+                    <a href="jakesniderfilms.html" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                    <div class="logopic">
+                        <a href="jakesniderfilms.html"><img src="./assets/images/jsfwhite.jpg" width="100px"></a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
     <!-- End Nav Bar -->
     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">
@@ -59,11 +57,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 col-xs-12">
                         <div class="contact-us">
-                            <h3 id="contact">Contact Me</h3>
+                            <h3 id="contact">Contact</h3>
                             <div class="contact-address">
-                                <!-- <p>Centerville Road, DE 19808, US </p> -->
                                 <p class="phone">Phone: <span>(407- 758-2190)</span></p>
-                                <p class="email">E-mail: <span>(jakesniderfilms.com)</span></p>
+                                <p class="contactemail">E-mail: <span>(jakesniderfilms.com)</span></p>
                             </div>
                         </div>
                     </div>
@@ -127,10 +124,11 @@
 <script>
 $(document).ready(function() {
     // Initialize collapse button
-    $(".button-collapse").sideNav({
-        menuWidth: 350,
-        closeOnClick: true
-    });
+    // $(".button-collapse").sideNav({
+    //     menuWidth: 350,
+    //     closeOnClick: true
+    // });
+    $('.sidenav').sidenav();
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
     //$('.collapsible').collapsible();
     $('.parallax').parallax();

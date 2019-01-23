@@ -190,6 +190,7 @@ $(document).ready(function() {
     $('.close').click(function() {
         $('#cloned').empty();
         $('.modal').css('display', 'none');
+        $('.navbar-fixed').css('z-index', '1');
         $('.modal').modal({
             dismissible: false
         });

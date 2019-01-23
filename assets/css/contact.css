@@ -12,8 +12,8 @@ body {
 }
 
 .nav-wrapper {
-    background-color: transparent !important;
-    /*background-color: black !important;*/
+    /*background-color: transparent !important;*/
+    background-color: black !important;
     color: black;
 }
 
@@ -39,20 +39,31 @@ a {
     width: 170px !important;
 }
 
-.sidebut {
+.home {
+    padding-top: 10%;
+}
+
+#close {
+    color: white;
+    float: right;
+    margin-right: -20px;
+}
+
+/*.sidebut {
     color: rgb(255, 255, 255) !important;
     font-size: 15px;
 }
 
 .row {
     margin-top: 60px;
-    /*margin-bottom: 60px;*/
+    margin-bottom: 60px;
 }
 
 #nav-mobile {
     background-color: black !important;
     display: inline-block;
-}
+}*/
+
 
 /*===================================================================
     MAIN CONTAINER
@@ -60,6 +71,11 @@ a {
 
 .contact {
     height: 90%;
+}
+
+.contact-form {
+    margin-top: 6%;
+    padding-bottom:12%;
 }
 
 .contact-us h3 {
@@ -70,12 +86,30 @@ a {
 .contact-us p span {
   color: #28a9e1;
   padding-left: 10px;
+  font-family: BankGothicMedium;
 }
 
 #contact {
   background: black;
   color: #fff;
   position: relative;
+  font-family: BankGothicMedium;
+}
+
+#name {
+    font-family: BankGothicMedium;
+}
+
+#email {
+    font-family: BankGothicMedium;
+}
+
+#message {
+    font-family: BankGothicMedium;
+}
+
+#submit {
+    font-family: BankGothicMedium;
 }
 
 .form-control {
@@ -113,10 +147,10 @@ a {
   color: #28a9e1;
 }
 
-.submit-button {
-    color: #28a9e1 !important;
+.btn {
+    background-color: #28a9e1 !important;
+    color: white;
 }
-
 /*===================================================================
     FOOTER
 =====================================================================*/
