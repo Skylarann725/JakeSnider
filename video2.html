@@ -101,6 +101,12 @@
                 </div>
                 <img class="dazimg" src="./assets/images/daz.png">
             </a>
+            <a class="reel2k15 modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">2015 Reel</div>
+                </div>
+                <img class="reelimg" src="./assets/images/reel2k15.png">
+            </a>
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                 <div class="modal-content">
@@ -149,6 +155,7 @@
         var ben = '<iframe src="https://player.vimeo.com/video/46582906?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
         var ashley = '<iframe src="https://player.vimeo.com/video/101724572?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
         var daz = '<iframe src="https://player.vimeo.com/video/106647421?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        var reel2k15 = '<iframe src="https://player.vimeo.com/video/158260281?autoplay=1" width="880" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 
         $('.mikey').click(function() {
             $('#cloned').empty();
@@ -158,18 +165,27 @@
         $('.jim').click(function() {
             $('#cloned').empty();
             $(jim).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
         });
         $('.ben').click(function() {
             $('#cloned').empty();
             $(ben).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
         });
         $('.ashley').click(function() {
             $('#cloned').empty();
             $(ashley).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
         });
         $('.daz').click(function() {
             $('#cloned').empty();
             $(daz).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.reel2k15').click(function() {
+            $('#cloned').empty();
+            $(reel2k15).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
         });
     });
     </script>
@@ -187,12 +203,18 @@ $(document).ready(function() {
     $('.modal').modal({
         dismissible: false
     });
+    $('.modal').click(function() {
+        $('img').css('margin-top', '-15px');
+    })
     $('.close').click(function() {
         $('#cloned').empty();
         $('.modal').css('display', 'none');
         $('.navbar-fixed').css('z-index', '1');
         $('.modal').modal({
             dismissible: false
+        });
+        $('body').css({
+            overflow: 'visible'
         });
     });
 

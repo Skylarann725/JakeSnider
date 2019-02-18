@@ -2,6 +2,7 @@ body {
     background-color: black;
 }
 
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -30,6 +31,7 @@ a {
     /*margin-top: 3px;*/
 }
 
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
@@ -48,6 +50,7 @@ a {
     float: right;
     margin-right: -20px;
 }
+
 
 /*.sidebut {
     color: rgb(255, 255, 255) !important;
@@ -75,25 +78,25 @@ a {
 
 .contact-form {
     margin-top: 6%;
-    padding-bottom:12%;
+    padding-bottom: 12%;
 }
 
 .contact-us h3 {
-  font-size: 36px;
-  margin-bottom: 45px;
+    font-size: 36px;
+    margin-bottom: 45px;
 }
 
 .contact-us p span {
-  color: #28a9e1;
-  padding-left: 10px;
-  font-family: BankGothicMedium;
+    color: #28a9e1;
+    padding-left: 10px;
+    font-family: BankGothicMedium;
 }
 
 #contact {
-  background: black;
-  color: #fff;
-  position: relative;
-  font-family: BankGothicMedium;
+    background: black;
+    color: #fff;
+    position: relative;
+    font-family: BankGothicMedium;
 }
 
 #name {
@@ -113,44 +116,47 @@ a {
 }
 
 .form-control {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 14px;
-  border-color: #fff;
-  border-radius: 0px;
-  color: #fff;
-  background: transparent;
-  font-size: 14px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+    background: transparent;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .form-control:focus {
-  box-shadow: none;
-  color: #fff;
-  border-color: #61D2B4;
-  background: transparent;
-  outline: none;
+    box-shadow: none;
+    color: #fff;
+    border-color: #61D2B4;
+    background: transparent;
+    outline: none;
 }
 
-.btn.disabled, .btn:disabled {
-  opacity: 1;
+.btn.disabled,
+.btn:disabled {
+    opacity: 1;
 }
 
 .text-danger {
-  font-size: 14px;
-  margin-top: 10px;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .list-unstyled li {
-  color: #28a9e1;
+    color: #28a9e1;
 }
 
 .btn {
     background-color: #28a9e1 !important;
     color: white;
 }
+
+
 /*===================================================================
     FOOTER
 =====================================================================*/
@@ -244,6 +250,11 @@ a {
 }
 
 @media screen and (max-width: 700px) {
+    .contact-form {
+        margin-top: 8%;
+        padding-bottom: 12%;
+    }
+
     .page-footer .footer-copyright {
         min-height: 100px;
     }
@@ -266,6 +277,11 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+    .contact-form {
+    margin-top: 10%;
+    padding-bottom:12%;
+}
+
     .page-footer .footer-copyright {
         min-height: 100px;
     }

@@ -11,6 +11,7 @@ html {
 }
 
 
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -48,6 +49,7 @@ button {
 
 
 
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
@@ -66,6 +68,7 @@ button {
     float: right;
     margin-right: -20px;
 }
+
 
 
 /*.sidebut {
@@ -119,6 +122,7 @@ h5 {
 a:hover {
     opacity: 1;
 }
+
 
 
 /*button:active {
@@ -203,7 +207,7 @@ a:hover {
     width: 50%;
     padding-right: 0;
     padding-left: 0;
-    float: right;
+    float: left;
     opacity: .7;
     margin-top: 0;
 }
@@ -212,6 +216,20 @@ a:hover {
     width: 100%;
 }
 
+.reel2k15 {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.reelimg {
+    width: 100%;
+}
+
+
 
 /*.wakeboarding {
     width: 100%;
@@ -219,19 +237,28 @@ a:hover {
 }*/
 
 @media screen and (max-width: 1800px) {
-    .daz {
+    /*.daz {
+        margin-bottom: 5%;
+    }*/
+    .reel2k15 {
         margin-bottom: 5%;
     }
 }
 
 @media screen and (max-width: 1050px) {
-    .daz {
+    /*.daz {
+        margin-bottom: 10%;
+    }*/
+    .reel2k15 {
         margin-bottom: 10%;
     }
 }
 
 @media screen and (max-width: 850px) {
-    .daz {
+    /*.daz {
+        margin-bottom: 15%;
+    }*/
+    .reel2k15 {
         margin-bottom: 15%;
     }
 }
@@ -253,6 +280,9 @@ a:hover {
         width: 100%;
         /*margin-bottom: 25%;*/
     }
+    .reel2k15 {
+        width: 100%;
+    }
     .title {
         font-size: 250%;
         padding-top: 80%;
@@ -265,8 +295,17 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .mikey {
+        margin-top: 30px;
+    }
+}
+
 @media screen and (max-width: 450px) {
-    .daz {
+    /*.daz {
+        margin-bottom: 20%;
+    }*/
+    .reel2k15 {
         margin-bottom: 20%;
     }
 }
@@ -274,15 +313,22 @@ a:hover {
 @media screen and (max-width: 440px) {
     .title {
         font-size: 150%;
-        padding-top: 80%;
+        padding-top: 70%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .daz {
+    /*.daz {
+        margin-bottom: 30%;
+    }*/
+    .reel2k15 {
         margin-bottom: 30%;
     }
+    iframe {
+        margin-top: -20%;
+    }
 }
+
 
 
 /*===================================================================
@@ -290,7 +336,7 @@ a:hover {
 =====================================================================*/
 
 .modal {
-/*    width: 80%;
+    /*    width: 80%;
     height: 100%;
     margin-top: 3%;
     background-color: black !important;*/
@@ -302,6 +348,7 @@ a:hover {
     overflow: hidden;
     width: unset;
     max-height: unset;
+    overflow-y: scroll;
 }
 
 .modal-content {
@@ -317,6 +364,7 @@ a:hover {
     font-size: 220%;
     background-color: black !important;
 }
+
 
 
 /*.modal-footer {

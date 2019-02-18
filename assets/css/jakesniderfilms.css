@@ -6,6 +6,10 @@ body {
 
 
 
+
+
+
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -38,6 +42,10 @@ a {
 
 
 
+
+
+
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
@@ -61,6 +69,10 @@ a {
     background-color: black !important;
     display: inline-block;
 }
+
+
+
+
 
 
 
@@ -118,8 +130,10 @@ h1 {
     font-weight: 900;
     text-align: center;
     font-family: 'BankGothicMedium', sans-serif;
-    font-size: 70px;
+    /*font-size: 70px;*/
+    font-size: 350%;
 }
+
 
 
 
@@ -130,21 +144,6 @@ h1 {
         height: 100%;
     }
 }*/
-
-@media screen and (max-width: 500px) {
-    h1 {
-        margin-left: 500px;
-        margin-top: 120px;
-        font-size: 40px !important;
-        line-height: 1em;
-    }
-    .parallax-container {
-        height: 300% !important;
-    }
-}
-
-
-
 
 
 /*===================================================================
@@ -178,6 +177,10 @@ h3 {
     font-size: 120%;
     line-height: 1.5em;
 }
+
+
+
+
 
 
 
@@ -227,6 +230,10 @@ hr {
 
 
 
+
+
+
+
 /*===================================================================
     ABOUT ME
 =====================================================================*/
@@ -243,6 +250,10 @@ hr {
     padding-top: 40px;
     padding-bottom: 60px;
 }
+
+
+
+
 
 
 
@@ -267,6 +278,10 @@ hr {
 .beach {
     opacity: 0.8;
 }
+
+
+
+
 
 
 
@@ -308,6 +323,10 @@ iframe {
     width: 100%;
     position: absolute;
 }
+
+
+
+
 
 
 
@@ -363,6 +382,10 @@ iframe {
 
 
 
+
+
+
+
 /*===================================================================
     MEDIA QUERIES
 =====================================================================*/
@@ -371,6 +394,9 @@ iframe {
     .copyright {
         margin-left: 15%;
     }
+    h1 {
+        font-size: 350%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -378,7 +404,8 @@ iframe {
         /*height: 400px;*/
     }
     h1 {
-        font-size: 30px;
+        font-size: 50px;
+        margin-left: 10%;
     }
     .copyright {
         margin-left: 10%;
@@ -386,18 +413,30 @@ iframe {
 }
 
 @media screen and (max-width: 940px) {
+    h1 {
+        font-size: 45px;
+        margin-left: 10%;
+    }
     .copyright {
         margin-left: 5px;
     }
 }
 
 @media screen and (max-width: 870px) {
+    h1 {
+        font-size: 40px;
+        margin-left: 10%;
+    }
     .copyright {
         margin-left: 0;
     }
 }
 
 @media screen and (max-width: 825px) {
+    h1 {
+        font-size: 40px;
+        margin-left: 20%;
+    }
     .page-footer .footer-copyright {
         min-height: 100px;
     }
@@ -421,10 +460,13 @@ iframe {
 
 @media screen and (max-width: 700px) {
     .parallax-container {
-        /*height: 300px;*/
+        height: 400px;
     }
     h1 {
         font-size: 30px;
+        margin-top: -5%;
+        font-size: 250%;
+        margin-left: 23%;
     }
     .page-footer .footer-copyright {
         min-height: 100px;
@@ -448,6 +490,13 @@ iframe {
 }
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px !important;
+        margin-top: -5%;
+        font-size: 250%;
+        margin-left: 26%;
+    }
+
     h3 {
         text-align: center;
         font-size: 190%;
@@ -460,6 +509,15 @@ iframe {
         text-align: center;
         font-size: 127%;
     }
+
+    .parallax-container {
+        background-size: cover;
+        width: 100% !important;
+        background-position: 0px 0px !important;
+        overflow: hidden;
+        position: relative;
+    }
+
     #index-banner2 {
         background-attachment: scroll !important;
         height: 185px !important;
@@ -474,6 +532,19 @@ iframe {
     .page-footer .footer-copyright {
         min-height: 100px;
     }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        margin-left: 500px;
+        margin-top: 120px;
+        font-size: 40px !important;
+        line-height: 1em;
+    }
+    .parallax-container {
+        height: 300% !important;
+    }
+
     .copyright {
         position: absolute;
         margin-top: 40px;
