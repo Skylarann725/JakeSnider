@@ -526,8 +526,8 @@ iframe {
         background-attachment: scroll !important;
         height: 185px !important;
     }
-    #title2 {
-        margin-top: 35px !important;
+    #title3 {
+    margin-top: 35px;
     }
     .page-footer .footer-copyright {
         min-height: 100px;
