@@ -306,3 +306,9 @@ a {
         margin-left: 29%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .logopic {
+        margin-top: 0;
+    }
+}
