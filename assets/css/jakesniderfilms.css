@@ -579,5 +579,6 @@ iframe {
 
     .logopic {
         margin-top: 0;
+        margin-right: -10px;
     }
 }
