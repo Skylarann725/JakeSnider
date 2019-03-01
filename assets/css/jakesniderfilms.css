@@ -597,3 +597,9 @@ iframe {
         font-size: 112%;
     }
 }
+
+@media screen and (max-width: 373px) {
+    .pabout {
+        font-size: 110%;
+    }
+}
