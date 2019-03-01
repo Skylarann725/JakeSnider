@@ -47,7 +47,12 @@ button {
 }
 
 
-
+@media screen and (max-width: 400px) {
+    .logopic {
+        margin-top: 0;
+        margin-right: -15px;
+    }
+}
 
 
 /*===================================================================

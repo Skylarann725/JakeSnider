@@ -575,5 +575,9 @@ iframe {
         height: 250px !important;
         width: 420px !important;
         margin-left: -7%;
-}
     }
+
+    .logopic {
+        margin-top: 0;
+    }
+}
