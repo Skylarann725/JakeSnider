@@ -3,6 +3,7 @@ body {
 }
 
 
+
 /*===================================================================
     NAVBAR
 =====================================================================*/
@@ -32,6 +33,7 @@ a {
 }
 
 
+
 /*===================================================================
     SLIDE OUT NAVBAR
 =====================================================================*/
@@ -50,6 +52,7 @@ a {
     float: right;
     margin-right: -20px;
 }
+
 
 
 /*.sidebut {
@@ -155,6 +158,7 @@ a {
     background-color: #28a9e1 !important;
     color: white;
 }
+
 
 
 /*===================================================================
@@ -278,9 +282,9 @@ a {
 
 @media screen and (max-width: 600px) {
     .contact-form {
-    margin-top: 10%;
-    padding-bottom:12%;
-}
+        margin-top: 10%;
+        padding-bottom: 12%;
+    }
 
     .page-footer .footer-copyright {
         min-height: 100px;
@@ -294,11 +298,11 @@ a {
     .developed {
         position: absolute;
         margin-top: 10px;
-        margin-left: 19%;
+        margin-left: 23%;
         text-align: center;
     }
     .contactinfo {
         margin-top: -30px;
-        margin-left: 26%;
+        margin-left: 29%;
     }
 }

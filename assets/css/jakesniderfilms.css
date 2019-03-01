@@ -532,6 +532,12 @@ iframe {
     .page-footer .footer-copyright {
         min-height: 100px;
     }
+    .developed {
+        margin-left: 23%;
+    }
+    .contactinfo {
+        margin-left: 29%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -540,25 +546,34 @@ iframe {
         margin-top: 120px;
         font-size: 40px !important;
         line-height: 1em;
+        visibility: hidden;
     }
     .parallax-container {
-        height: 300% !important;
+        height: 280px !important;
     }
 
     .copyright {
         position: absolute;
         margin-top: 40px;
-        margin-left: -2%;
+        margin-left: -1%;
         padding-bottom: 20px;
     }
     .developed {
         position: absolute;
         margin-top: 10px;
-        margin-left: 19%;
+        margin-left: 23%;
         text-align: center;
     }
     .contactinfo {
         margin-top: -30px;
-        margin-left: 26%;
+        margin-left: 29%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .parallax-container {
+        height: 250px !important;
+        width: 420px !important;
+        margin-left: -7%;
+}
+    }
