@@ -506,8 +506,8 @@ iframe {
         padding-bottom: 0px;
     }
     .pabout {
-        text-align: center;
-        font-size: 127%;
+        /*text-align: center;*/
+        font-size: 112%;
     }
 
     .parallax-container {
@@ -580,5 +580,15 @@ iframe {
     .logopic {
         margin-top: 0;
         margin-right: -10px;
+    }
+
+    #aboutcontainer {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #companycontainer {
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 }
