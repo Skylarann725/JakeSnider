@@ -376,7 +376,7 @@ a:hover {
 .close {
     color: white;
     font-size: 220%;
-    background-color: black !important;
+    /*background-color: black !important;*/
 }
 
 
