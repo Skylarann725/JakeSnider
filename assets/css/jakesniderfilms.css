@@ -595,6 +595,7 @@ iframe {
     .pabout {
         /*text-align: center;*/
         font-size: 112%;
+        text-align: center;
     }
 }
 

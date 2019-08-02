@@ -334,6 +334,9 @@ a:hover {
     img {
         margin-top: 0 !important;
     }
+    #close {
+        margin-left: 10px;
+    }
 }
 
 
