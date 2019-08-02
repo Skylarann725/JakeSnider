@@ -336,8 +336,10 @@ a:hover {
     }
     #close {
         /*margin-left: 10px;*/
-            margin-left: 90px;
-    margin-top: 20px;
+        margin-left: 90px;
+        margin-top: 20px;
+        z-index: 999;
+        position: relative;
     }
 }
 
