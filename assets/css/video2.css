@@ -146,15 +146,144 @@ a:hover {
 .title {
     opacity: 1;
     color: white;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 100;
     padding-top: 40%;
     padding-left: 2%;
+    line-height: 1em;
     /*font-family: 'BankGothicMedium', sans-serif;*/
 }
 
 .title:hover {
-    font-size: 300%;
+    font-size: 240%;
+}
+
+.mikeynew {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    opacity: .7;
+}
+
+.mikeynewimg {
+    width: 100%;
+}
+
+.nationals {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+}
+
+.nationalsimg {
+    width: 100%;
+}
+
+.travers {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.traversimg {
+    width: 100%;
+}
+
+.gateriver {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.gateriverimg {
+    width: 100%
+}
+
+.varattirider {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.varattiriderimg {
+    width: 100%;
+}
+
+.varattiwalk {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.varattiwalkimg {
+    width: 100%
+}
+
+.humanoid1 {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.humanoid1img {
+    width: 100%;
+}
+
+.humanoid2 {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.humanoid2img {
+    width: 100%
+}
+
+.owcboat {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.owcboatimg {
+    width: 100%;
+}
+
+.owcmurray {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    opacity: .7;
+    margin-top: 0;
+}
+
+.owcmurrayimg {
+    width: 100%
 }
 
 .mikey {
@@ -163,6 +292,7 @@ a:hover {
     padding-left: 0;
     float: left;
     opacity: .7;
+    margin-top: 0;
 }
 
 .mikeyimg {
@@ -175,6 +305,7 @@ a:hover {
     padding-left: 0;
     float: right;
     opacity: .7;
+    margin-top: 0;
 }
 
 .jimimg {
@@ -232,7 +363,6 @@ a:hover {
 .reelimg {
     width: 100%;
 }
-
 
 
 /*.wakeboarding {

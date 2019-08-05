@@ -71,6 +71,66 @@
         <!-- All Videos -->
         <div class="allvids">
             <!-- Modal Trigger -->
+            <a class="mikeynew modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Mikey Conrady</div>
+                </div>
+                <img class="mikeynewimg" src="./assets/images/mikeynew.png">
+            </a>
+            <a class="nationals modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">2018 Barefoot Nationals</div>
+                </div>
+                <img class="nationalsimg" src="./assets/images/nationals.png">
+            </a>
+            <a class="travers modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Travers Grand Prix 2019</div>
+                </div>
+                <img class="traversimg" src="./assets/images/travers.png">
+            </a>
+            <a class="gateriver modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Gate River Run 2019</div>
+                </div>
+                <img class="gateriverimg" src="./assets/images/gateriver.png">
+            </a>
+            <a class="varattirider modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Varatti Z22 Rider Experience</div>
+                </div>
+                <img class="varattiriderimg" src="./assets/images/varattirider.png">
+            </a>
+            <a class="varattiwalk modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Varatti Z22 Boat Walkthrough</div>
+                </div>
+                <img class="varattiwalkimg" src="./assets/images/varattiwalk.png">
+            </a>
+            <a class="humanoid1 modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Humanoid Custom Boards</div>
+                </div>
+                <img class="humanoid1img" src="./assets/images/humanoid1.png">
+            </a>
+            <a class="humanoid2 modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">Humanoid 30 Second Ad</div>
+                </div>
+                <img class="humanoid2img" src="./assets/images/humanoid2.png">
+            </a>
+            <a class="owcboat modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">OWC Boat Lake</div>
+                </div>
+                <img class="owcboatimg" src="./assets/images/owcboat.png">
+            </a>
+            <a class="owcmurray modal-trigger" href="#modal1">
+                <div class="titlewrap">
+                    <div class="title">OWC Walkthrough with Shaun Murray</div>
+                </div>
+                <img class="owcmurrayimg" src="./assets/images/owcmurray.png">
+            </a>
             <a class="mikey modal-trigger" href="#modal1">
                 <div class="titlewrap">
                     <div class="title">Mikey Conrady</div>
@@ -150,6 +210,16 @@
     <!-- End Footer -->
     <script type="text/javascript">
     $(document).ready(function() {
+        var mikeynew = '<iframe src="https://player.vimeo.com/video/312390431?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var nationals = '<iframe src="https://player.vimeo.com/video/320633359?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var travers = '<iframe src="https://player.vimeo.com/video/345054514?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var gateriver = '<iframe src="https://player.vimeo.com/video/324954552?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var varattirider = '<iframe src="https://player.vimeo.com/video/337513307?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var varattiwalk = '<iframe src="https://player.vimeo.com/video/340975256?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var humanoid1 = '<iframe src="https://player.vimeo.com/video/274169773?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var humanoid2 = '<iframe src="https://player.vimeo.com/video/273413614?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var owcboat = '<iframe src="https://player.vimeo.com/video/321416437?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+        var owcmurray = '<iframe src="https://player.vimeo.com/video/322147171?autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
         var mikey = '<iframe src="https://player.vimeo.com/video/254609321?autoplay=1" width="880" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
         var jim = '<iframe src="https://player.vimeo.com/video/254602190?autoplay=1" width="880" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
         var ben = '<iframe src="https://player.vimeo.com/video/46582906?autoplay=1" width="880" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
@@ -157,6 +227,56 @@
         var daz = '<iframe src="https://player.vimeo.com/video/106647421?autoplay=1" width="880" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
         var reel2k15 = '<iframe src="https://player.vimeo.com/video/158260281?autoplay=1" width="880" height="460" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
 
+        $('.mikeynew').click(function() {
+            $('#cloned').empty();
+            $(mikeynew).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.nationals').click(function() {
+            $('#cloned').empty();
+            $(nationals).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.travers').click(function() {
+            $('#cloned').empty();
+            $(travers).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.gateriver').click(function() {
+            $('#cloned').empty();
+            $(gateriver).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.varattirider').click(function() {
+            $('#cloned').empty();
+            $(varattirider).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.varattiwalk').click(function() {
+            $('#cloned').empty();
+            $(varattiwalk).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.humanoid1').click(function() {
+            $('#cloned').empty();
+            $(humanoid1).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.humanoid2').click(function() {
+            $('#cloned').empty();
+            $(humanoid2).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.owcboat').click(function() {
+            $('#cloned').empty();
+            $(owcboat).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
+        $('.owcmurray').click(function() {
+            $('#cloned').empty();
+            $(owcmurray).appendTo('#cloned');
+            $('.navbar-fixed').css('z-index', '0');
+        });
         $('.mikey').click(function() {
             $('#cloned').empty();
             $(mikey).appendTo('#cloned');
@@ -187,6 +307,8 @@
             $(reel2k15).appendTo('#cloned');
             $('.navbar-fixed').css('z-index', '0');
         });
+        
+        
     });
     </script>
 </body>
