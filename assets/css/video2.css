@@ -398,6 +398,36 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
+    .mikeynew {
+        width: 100%;
+    }
+    .nationals {
+        width: 100%;
+    }
+    .travers {
+        width: 100%;
+    }
+    .gateriver {
+        width: 100%;
+    }
+    .varattirider {
+        width: 100%;
+    }
+    .varattiwalk {
+        width: 100%;
+    }
+    .humanoid1 {
+        width: 100%;
+    }
+    .humanoid2 {
+        width: 100%;
+    }
+    .owcboat {
+        width: 100%;
+    }
+    .owcmurray {
+        width: 100%;
+    }
     .mikey {
         width: 100%;
     }
