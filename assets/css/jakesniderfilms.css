@@ -394,6 +394,7 @@ iframe {
     .copyright {
         margin-left: 15%;
     }
+
     h1 {
         font-size: 350%;
     }
@@ -403,10 +404,12 @@ iframe {
     .parallax-container {
         /*height: 400px;*/
     }
+
     h1 {
         font-size: 50px;
         margin-left: 10%;
     }
+
     .copyright {
         margin-left: 10%;
     }
@@ -417,6 +420,7 @@ iframe {
         font-size: 45px;
         margin-left: 10%;
     }
+
     .copyright {
         margin-left: 5px;
     }
@@ -427,6 +431,7 @@ iframe {
         font-size: 40px;
         margin-left: 10%;
     }
+
     .copyright {
         margin-left: 0;
     }
@@ -437,21 +442,25 @@ iframe {
         font-size: 40px;
         margin-left: 20%;
     }
+
     .page-footer .footer-copyright {
         min-height: 100px;
     }
+
     .copyright {
         position: absolute;
         margin-top: 40px;
         margin-left: 25%;
         padding-bottom: 20px;
     }
+
     .developed {
         position: absolute;
         margin-top: 10px;
         margin-left: 37%;
         text-align: center;
     }
+
     .contactinfo {
         margin-top: -30px;
         margin-left: 40%;
@@ -462,27 +471,32 @@ iframe {
     .parallax-container {
         height: 400px;
     }
+
     h1 {
         font-size: 30px;
         margin-top: -5%;
         font-size: 250%;
         margin-left: 23%;
     }
+
     .page-footer .footer-copyright {
         min-height: 100px;
     }
+
     .copyright {
         position: absolute;
         margin-top: 40px;
         margin-left: 20%;
         padding-bottom: 20px;
     }
+
     .developed {
         position: absolute;
         margin-top: 10px;
         margin-left: 34%;
         text-align: center;
     }
+
     .contactinfo {
         margin-top: -30px;
         margin-left: 37%;
@@ -501,11 +515,18 @@ iframe {
         text-align: center;
         font-size: 190%;
     }
-    h2 {
+
+    .quote {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .reel {
         padding-top: 0px;
         padding-bottom: 0px;
         font-size: 2.5rem !important;
     }
+
     .pabout {
         /*text-align: center;*/
         font-size: 117%;
@@ -523,19 +544,24 @@ iframe {
         background-attachment: scroll !important;
         height: 185px !important;
     }
+
     #index-banner3 {
         background-attachment: scroll !important;
         height: 150px !important;
     }
+
     #title3 {
-    margin-top: 23px;
+        margin-top: 23px;
     }
+
     .page-footer .footer-copyright {
         min-height: 100px;
     }
+
     .developed {
         margin-left: 23%;
     }
+
     .contactinfo {
         margin-left: 29%;
     }
@@ -549,6 +575,7 @@ iframe {
         line-height: 1em;
         visibility: hidden;
     }
+
     .parallax-container {
         height: 280px !important;
     }
@@ -559,12 +586,14 @@ iframe {
         margin-left: -1%;
         padding-bottom: 20px;
     }
+
     .developed {
         position: absolute;
         margin-top: 10px;
         margin-left: 23%;
         text-align: center;
     }
+
     .contactinfo {
         margin-top: -30px;
         margin-left: 29%;
