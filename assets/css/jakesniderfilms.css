@@ -212,8 +212,8 @@ h2 {
     text-align: center;
     font-family: 'BankGothicMedium', sans-serif;
     /*font-size: 70px;*/
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .quote {
@@ -504,6 +504,7 @@ iframe {
     h2 {
         padding-top: 0px;
         padding-bottom: 0px;
+        font-size: 2.5rem !important;
     }
     .pabout {
         /*text-align: center;*/
@@ -524,10 +525,10 @@ iframe {
     }
     #index-banner3 {
         background-attachment: scroll !important;
-        height: 185px !important;
+        height: 150px !important;
     }
     #title3 {
-    margin-top: 35px;
+    margin-top: 23px;
     }
     .page-footer .footer-copyright {
         min-height: 100px;

@@ -74,7 +74,9 @@ button {
     margin-right: -20px;
 }
 
-
+.sidenav-overlay {
+    display: none !important;
+}
 
 /*.sidebut {
     color: rgb(255, 255, 255) !important;
