@@ -502,6 +502,9 @@ a:hover {
         z-index: 999;
         position: relative;
     }
+    .modal .modal-content {
+     padding: 0 !important; 
+}
 }
 
 

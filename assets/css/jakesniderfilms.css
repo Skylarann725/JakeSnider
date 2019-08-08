@@ -627,6 +627,9 @@ iframe {
         font-size: 112%;
         text-align: center;
     }
+    #vidreel {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 373px) {
